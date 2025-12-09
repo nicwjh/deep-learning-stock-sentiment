@@ -1,0 +1,23 @@
+{
+  "tfidf": {
+    "max_features": 5000,
+    "ngram_range": [
+      1,
+      2
+    ],
+    "min_df": 5,
+    "max_df": 0.8
+  },
+  "sentiment_features": [
+    "vader_neg",
+    "vader_neu",
+    "vader_pos",
+    "vader_compound"
+  ],
+  "metadata_features": [
+    "tweet_count",
+    "avg_tweet_len",
+    "total_chars"
+  ],
+  "total_features": 5007
+}
