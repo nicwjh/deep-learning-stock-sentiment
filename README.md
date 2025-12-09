@@ -2,16 +2,6 @@
 
 [![MIT License][license-shield]][license-url]
 
-<br />
-<p align="center">
-  <h3 align="center">Deep Learning for Financial Sentiment Analysis</h3>
-
-  <p align="center">
-    Binary classification of next-day stock movements using social media text
-    <br />
-    <br />
-  </p>
-</p>
 
 ## About
 
