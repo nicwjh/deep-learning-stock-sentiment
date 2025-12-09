@@ -5,7 +5,7 @@
 
 ## About
 
-Social media platforms like Twitter have become influential sources of retail investor sentiment, raising the question: can we predict short-term stock price movements by analyzing social media discussions? This project frames the problem as binary classification—given all social media posts about a stock on a trading day, predict whether the stock price will increase or decrease the next day.
+Social media platforms like Twitter have become influential sources of retail investor sentiment, raising the question: can we predict short-term stock price movements by analyzing social media discussions? This project frames the problem as binary classification: given all social media posts about a stock on a trading day, predict whether the stock price will increase or decrease the next day.
 
 We compare classical machine learning baselines (Logistic Regression on TF-IDF features) against deep learning approaches (MLP, BERT with classification head) on 80,793 tweets about 11 stocks from September 2021 to September 2022. Methods are evaluated using time-based splits to avoid lookahead bias and assessed via accuracy, F1 score, and AUC-ROC.
 
